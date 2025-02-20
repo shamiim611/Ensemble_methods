@@ -29,7 +29,7 @@ Tools Required:
 •	Scikit-learn: For building decision tree models, ensemble methods, and evaluating model performance.
 
 
-CONCLUSION
+CONCLUSION:
    our baselearner(decision tree) was overfitting and it is also a strong learner(max_depth = 19).
-  	this could explain why ensemble methods that reduce variance(random forest,bagging) performed better than adaboost.
+  	this could explain why ensemble methods that reduce variance(random forest,bagging) performed better than adaboost(works better with weak learners.
   	gradient boosting is often best for strong learners
