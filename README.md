@@ -4,21 +4,21 @@ The credit dataset contains 1,000 loan examples, with a mix of numeric and categ
 ________________________________________
 Steps to Follow:
 1.	Data Preprocessing:
-o	Apply label encoding to both predictor and target variables.
-o	Split the dataset into training and testing sets.
+Apply label encoding to both predictor and target variables.
+Split the dataset into training and testing sets.
 2.	Building the Model:
-o	Construct a decision tree model using the credit dataset.
+Construct a decision tree model using the credit dataset.
 3.	Cross-Validation:
-o	Perform cross-validation to ensure reliable predictions from the model.
+Perform cross-validation to ensure reliable predictions from the model.
 4.	Enhancing Model Performance:
-o	Improve the model using ensemble methods such as:
+Improve the model using ensemble methods such as:
 	Bagging
 	Boosting
 	Random Forest
 5.	Parameter Tuning:
-o	Use Grid Search to fine-tune the hyperparameters for optimal performance.
+Use Grid Search to fine-tune the hyperparameters for optimal performance.
 6.	Model Evaluation:
-o	Evaluate each model’s performance using the ROC curve and AUC (Area Under the Curve).
+Evaluate each model’s performance using the ROC curve and AUC (Area Under the Curve).
 Key Skills Demonstrated:
 1.	Data preprocessing (label encoding, train-test split).
 2.	Building and fine-tuning decision tree models.
@@ -27,3 +27,7 @@ Key Skills Demonstrated:
 Tools Required:
 •	Pandas: For data preprocessing and manipulation.
 •	Scikit-learn: For building decision tree models, ensemble methods, and evaluating model performance.
+CONCLUSION
+   our baselearner(decision tree) was overfitting and it is also a strong learner(max_depth = 19).
+  	this could explain why ensemble methods that reduce variance(random forest,bagging) performed better than adaboost.
+  	gradient boosting is often best for strong learners
