@@ -27,6 +27,8 @@ Key Skills Demonstrated:
 Tools Required:
 •	Pandas: For data preprocessing and manipulation.
 •	Scikit-learn: For building decision tree models, ensemble methods, and evaluating model performance.
+
+
 CONCLUSION
    our baselearner(decision tree) was overfitting and it is also a strong learner(max_depth = 19).
   	this could explain why ensemble methods that reduce variance(random forest,bagging) performed better than adaboost.
